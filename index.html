@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="main.css">
+    <title>Sprint 02 - Ahorcado</title>
+</head>
+<body>
+    <main>
+        <div class="logo-container">
+            <img class="logo" src="img/logo.svg" alt="logo de Alura">
+        </div>
+
+        <section id='inicio' class="inicio">
+            <input type="button" class="btn-azul btn-inicio" value="Iniciar juego"></input>
+            <input id="btn-agregar" type="button" class="btn-gris" value="Agregar nueva palabra"></input>
+        </section>
+
+        <section id='agregar' class="agregar">
+            <textarea id="class" class="texto" placeholder="Ingrese una palabra"></textarea>
+            <label class="error"><i class='bx bxs-error-circle'></i>Máx de 8 letras</label>
+            <input id="guardar" type="button" class="btn-azul" value="Guardar y empezar"></input>
+            <input id="cancelar" type="button" class="btn-gris" value="Cancelar"></input>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
