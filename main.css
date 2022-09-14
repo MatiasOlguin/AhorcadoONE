@@ -19,7 +19,6 @@ main{
 .logo-container{
     height: 10%;
     display: flex;
-    background-color: aquamarine;
 }
 
 .logo{
@@ -94,10 +93,12 @@ input:hover{
 
 .palabra-secreta li{
     font-size: 2em;
+    color: #E5E5E5;
     width: 10%;
     text-align: center;
     display: inline;
     border-bottom: 0.2em solid #0A3871;
+    user-select:none;
 }
 
 .agregar{
